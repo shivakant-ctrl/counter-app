@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter-app {
+  width: 30%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.counter-app h1 {
+  font-size: 4rem;
+}
+
+.counter-app p {
+  font-size: 3.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: yellow;
+  font-weight: 700;
+}
+
+.buttons-div {
+  width: fit-content;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.buttons-div button {
+  font-size: 1.2rem;
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.3rem;
+}
+
+.buttons-div button:hover {
+  cursor: pointer;
+}
+
+.reset-button {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+
+
